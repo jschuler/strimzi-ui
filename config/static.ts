@@ -42,7 +42,7 @@ const server: Config<Literal> = {
         transport: {},
       },
       session: {
-        name: 'strimzi-ui',
+        name: 'kafka-management-ui',
       },
       logging: {},
       hostname: '0.0.0.0',

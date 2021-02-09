@@ -60,7 +60,7 @@ Common step definitions should be defined in `test_common/jest_cucumber_support/
 
 ### Server Testing
 
-The strimzi-ui server should be tested by driving requests to the server, as a user would (indirectly) through via the UI. It should be tested behaviorally, using _Jest_ and _Cucumber_ interacting with a [`supertest`](https://github.com/visionmedia/supertest) instance of the server. Test feature files will reside in their respective modules, and common server test step code is kept in `server/test`.
+The kafka-management-ui server should be tested by driving requests to the server, as a user would (indirectly) through via the UI. It should be tested behaviorally, using _Jest_ and _Cucumber_ interacting with a [`supertest`](https://github.com/visionmedia/supertest) instance of the server. Test feature files will reside in their respective modules, and common server test step code is kept in `server/test`.
 
 ### End to End testing
 
@@ -113,7 +113,7 @@ where certain tests may have been overlooked.
 
 ## Accessibility testing
 
-To be discussed at https://github.com/strimzi/strimzi-ui/issues/20
+To be discussed at https://github.com/strimzi/kafka-management-ui/issues/20
 
 ## Test tooling used
 

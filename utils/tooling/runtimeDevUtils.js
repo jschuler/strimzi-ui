@@ -31,13 +31,13 @@ const getIfExists = (file) =>
     : undefined;
 
 const serverCertificates = {
-  cert: getIfExists('../../generated/dev_certs/strimzi-ui-server.cert'),
-  key: getIfExists('../../generated/dev_certs/strimzi-ui-server.key'),
+  cert: getIfExists('../../generated/dev_certs/kafka-management-ui-server.cert'),
+  key: getIfExists('../../generated/dev_certs/kafka-management-ui-server.key'),
 };
 
 const mockAdminCertificates = {
-  cert: getIfExists('../../generated/dev_certs/strimzi-ui-mock-admin.cert'),
-  key: getIfExists('../../generated/dev_certs/strimzi-ui-mock-admin.key'),
+  cert: getIfExists('../../generated/dev_certs/kafka-management-ui-mock-admin.cert'),
+  key: getIfExists('../../generated/dev_certs/kafka-management-ui-mock-admin.key'),
 };
 
 module.exports = {

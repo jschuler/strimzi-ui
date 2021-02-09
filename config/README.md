@@ -1,6 +1,6 @@
 # Config
 
-This directory contains all configuration for both the client and server of the Strimzi-ui ([described here](../docs/Architecture.md#configuration-and-feature-flagging)).
+This directory contains all configuration for both the client and server of the kafka-management-ui ([described here](../docs/Architecture.md#configuration-and-feature-flagging)).
 
 - `runtime.ts` - will contain all configuration options which require resolution at server runtime to return a value
 - `static.ts` - will contain all configuration options where values can be defined literally

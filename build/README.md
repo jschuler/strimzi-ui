@@ -13,4 +13,4 @@ This directory contains code relating to the building of the UI at dev and produ
 - `webpack.client.prod.js` - webpack production build mode for client code. Contains configuration to minify and compress all built output.
 - `webpack.server.prod.js` - webpack production build mode for server code. Contains configuration to minify and compress all built output.
 - `babelPresets.js` - babel transpiling configuration. See comments in the file which detail what options/plugins are in use.
-- `dockerfile` - a dockerfile which builds the Strimzi-ui, and when run hosts it on port 3000
+- `dockerfile` - a dockerfile which builds the kafka-management-ui, and when run hosts it on port 3000

@@ -16,7 +16,7 @@ const server: Config<Literal> = {
     configValue: getEnvvarValue('configPath', './server.config.json'),
   },
   serverName: {
-    configValue: getEnvvarValue('serverName', 'Strimzi-ui server'),
+    configValue: getEnvvarValue('serverName', 'kafka-management-ui server'),
   },
 };
 

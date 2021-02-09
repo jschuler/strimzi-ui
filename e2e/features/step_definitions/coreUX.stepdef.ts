@@ -4,7 +4,7 @@
  */
 import { And, Given, Then } from 'cypress-cucumber-preprocessor/steps';
 
-Given('I am on the strimzi-ui homepage', () => {
+Given('I am on the kafka-management-ui homepage', () => {
   cy.visit('localhost:3000/index.html');
 });
 

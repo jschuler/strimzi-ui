@@ -1,19 +1,18 @@
 {
-  "name": "strimzi-ui",
+  "name": "kafka-management-ui",
   "private": true,
   "version": "0.0.1",
   "description": "Strimzi UI provides a way for managing Strimzi and Kafka clusters (+ other components) deployed by it using a graphical user interface.",
   "scripts": {
     "clean": "rm -rf dist/ && rm -rf js/ && rm -rf .out/ && rm -rf generated/ && rm -rf coverage/ && npx jest --clear-cache",
     "start": "npm-run-all --parallel --race start:client start:server start:mockadminserver",
-    "start:builtserver": "configPath=utils/dev_config/server.e2e.config.js node dist/server/main.js",
     "start:client": "webpack serve --config build/webpack.client.dev.js",
     "start:server": "configPath=utils/dev_config/server.dev.config.js npm run server",
     "start:mockadminserver": "serverName=mockadminserver configPath=utils/dev_config/mockadmin.config.js npm run server",
     "start:e2eserver": "npm-run-all --parallel start:builtserver start:mockadminserver",
     "server": "npx nodemon --exec 'ts-node -r tsconfig-paths/register --project server/tsconfig.json' server/main.ts",
     "build": "webpack --config build/webpack.client.prod.js && webpack --config build/webpack.server.prod.js",
-    "dockerbuild": "docker build -t strimzi-ui:latest -f ./build/dockerfile .",
+    "dockerbuild": "docker build -t kafka-management-ui:latest -f ./build/dockerfile .",
     "pretest": "npm-run-all --parallel licence:check && prettier --config ./linting/prettier.config.js --check .",
     "storybook": "start-storybook --port 6006",
     "storybook:build": "build-storybook -o .out",
@@ -37,11 +36,11 @@
   "sideEffects": false,
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/strimzi/strimzi-ui.git"
+    "url": "git+https://github.com/strimzi/kafka-management-ui.git"
   },
   "license": "Apache-2.0",
   "bugs": {},
-  "homepage": "https://github.com/strimzi/strimzi-ui#readme",
+  "homepage": "https://github.com/strimzi/kafka-management-ui#readme",
   "dependencies": {
     "@apollo/client": "^3.2.5",
     "@apollo/react-hooks": "^4.0.0",

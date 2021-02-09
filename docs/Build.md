@@ -234,4 +234,4 @@ The UI build is used in a [`dockerfile`](../build/dockerfile) to produce an imag
 - Move the built UI directory `dist` and `node_modules` to the required location
 - Sets the entrypoint to a script/command which runs the UI Server: `node dist/server/main.js`
 
-Further details/refinement to be added once https://github.com/strimzi/strimzi-ui/issues/62 has been finalized.
+Further details/refinement to be added once https://github.com/strimzi/kafka-management-ui/issues/62 has been finalized.

@@ -66,7 +66,7 @@ If required, these checks can be run manually by running `npm run lint:src`. Whe
 | Indentation: 2 spaces             |                                                                                                                                                                                                               Tab width can be changed, spaces cannot |
 | All lines to end with semi-colons | JS can handle a lack of semi-colon ([via ASI](https://en.wikibooks.org/wiki/JavaScript/Automatic_semicolon_insertion)), but there are cases where this will lead to unexpected behaviour. Thus, force use of semi-colons so behaviour is predictable. |
 
-- _Note:_ Additional rules/rulesets to follow on agreement on code style - https://github.com/strimzi/strimzi-ui/issues/4 .
+- _Note:_ Additional rules/rulesets to follow on agreement on code style - https://github.com/strimzi/kafka-management-ui/issues/4 .
 
 ### SCSS / css code
 
@@ -80,7 +80,7 @@ If required, these checks can be run manually by running `npm run lint:styling`.
 | stylelint-config-recommended     |                     Follow best practise/recommended rules from stylelint |
 | stylelint-config-sass-guidelines |                                         Follow recommended rules for scss |
 
-- _Note:_ Additional rules/rulesets to follow on agreement on code style - https://github.com/strimzi/strimzi-ui/issues/4 .
+- _Note:_ Additional rules/rulesets to follow on agreement on code style - https://github.com/strimzi/kafka-management-ui/issues/4 .
 
 ### Code style
 
@@ -95,4 +95,4 @@ If required, these checks can be run manually by running `npm run lint:format`. 
 | Use single quotes for strings/JSX |                 Forces consistent quote style |
 | All lines to end with semi-colons |             All lines to end with semi colons |
 
-- _Note:_ Additional rules/rulesets to follow on agreement on code style - https://github.com/strimzi/strimzi-ui/issues/4 .
+- _Note:_ Additional rules/rulesets to follow on agreement on code style - https://github.com/strimzi/kafka-management-ui/issues/4 .

@@ -21,7 +21,7 @@ const coverageTable = (coverage) => {
   let coverageText =
     "| File | Lines | Statement | Functions | Branches |\n| --- | --- | --- | --- | --- |\n";
 
-  const regex = /^(.+)strimzi-ui\/(.+)$/;
+  const regex = /^(.+)kafka-management-ui\/(.+)$/;
 
   coverageText += Object.entries(coverage).reduce((text, [key, value]) => {
     console.log(key);
