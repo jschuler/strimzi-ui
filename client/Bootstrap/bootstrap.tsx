@@ -18,6 +18,7 @@ import { Home } from '../Panels/Home';
 import CreateTopic from '../Panels/Topics/CreateView.patternfly';
 import TopicDetail from 'Panels/Topics/DetailView.patternfly';
 import UpdateTopicView from '../Panels/Topics/UpdateView.patternfly';
+import BrokerListView from '../Panels/Brokers/BrokerListView.patternfly';
 
 init(); //Bootstrap i18next support
 ReactDOM.render(
@@ -31,6 +32,7 @@ ReactDOM.render(
               <Route path='/topics' component={Topics} exact />
               <Route path='/topic/:topicName' component={TopicDetail} exact />
               <Route path='/topics/create' component={CreateTopic} exact />
+              <Route path='/brokers' component={BrokerListView} exact />
               <Route
                 path='/topics/update/:name'
                 component={UpdateTopicView}
